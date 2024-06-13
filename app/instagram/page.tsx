@@ -99,7 +99,7 @@ export default function Page() {
             <ul className='list-disc list-inside'>
               {nonFollowbacks.map((user, index) => (
                 <li key={index} className='mb-1'>
-                  <a href={user.string_list_data[0].href} target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>
+                  <a href={user.string_list_data[0].href} target='_blank' rel='noopener noreferrer' className='text-blue-600 dark:text-white hover:underline'>
                     {user.string_list_data[0].value}
                   </a>
                 </li>
